@@ -7,7 +7,7 @@ import os
 
 output_folder = '.'
 sized_folder = output_folder+'/'+'sized_data'
-dim=(700,700)
+dim=(550,550)
 
 for p in [output_folder,sized_folder]:
 	if not os.path.exists(p):
